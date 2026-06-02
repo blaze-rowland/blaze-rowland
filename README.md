@@ -1,18 +1,8 @@
 # Hi, I'm Blaze 👋
 
-Principal Engineer building distributed systems at scale. Founder. 9 years shipping TypeScript across the full stack — heavier on backend, comfortable everywhere.
+Principal Engineer building distributed systems at scale. 9 years shipping TypeScript across the full stack — heavier on backend, comfortable everywhere.
 
-Currently leading platform architecture at **[Fishbowl](https://fishbowl.com)** (restaurant engagement SaaS) and building **[Krowd](https://krowd.dev)** — an operating system for event organizers — as a solo founder.
-
----
-
-## What I'm working on
-
-**[Krowd](https://krowd.dev)** — attendee CRM, sponsorship pipeline, email/SMS marketing, and reporting for event organizers. React 19 + Hono + PostgreSQL + React Native monorepo.
-
-**[Fishbowl Platform](https://fishbowl.com)** — one of three founding engineers on a ground-up rebuild serving 430+ enterprise restaurant clients across 5,500+ locations. Handling 2.2M+ events/month across dedicated ECS clusters.
-
----
+Currently leading platform architecture at **[Fishbowl](https://fishbowl.com)** (restaurant engagement SaaS) — one of three founding engineers on a ground-up rebuild serving 430+ enterprise restaurant clients across 5,500+ locations. Handling 2.2M+ events/month across dedicated ECS clusters.
 
 ## Notable projects
 
