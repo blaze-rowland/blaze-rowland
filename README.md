@@ -1,48 +1,37 @@
-# Hi, I'm Blaze 👋
+## Blaze Rowland
 
-Principal Engineer building distributed systems at scale. 9 years shipping TypeScript across the full stack — heavier on backend, comfortable everywhere.
+Principal Engineer with 9 years of experience in distributed systems, event-driven architecture, and full-stack TypeScript. Based in Houston, TX.
 
-Currently leading platform architecture at **[Fishbowl](https://fishbowl.com)** (restaurant engagement SaaS) — one of three founding engineers on a ground-up rebuild serving 430+ enterprise restaurant clients across 5,500+ locations. Handling 2.2M+ events/month across dedicated ECS clusters.
-
-## Notable projects
-
-| Project | Description |
-|---|---|
-| [git-env / ev](https://git-env.com) | E2E encrypted env var sync CLI — 2,000+ organic npm installs in week one |
-| [documnt](https://documnt.app) | Document management with end-to-end encryption |
-| [Ten54](https://ten54.app) | Cross-platform mobile app (React Native + Expo) |
+At **[Fishbowl](https://fishbowl.com)**, I'm one of three founding engineers behind a ground-up platform rebuild — a restaurant engagement SaaS now serving 430+ enterprise clients across 5,500+ locations (Landry's, Raising Cane's, Lettuce Entertain You). The platform processes 2.2M+ events/month across dedicated ECS clusters, supports 84,000+ active loyalty members, and delivers 8 customer-facing applications backed by a 100+ component shared library. I co-led SOC 2 Type II certification and reduced p95 API latency from 1s+ to ~550ms.
 
 ---
 
-## Stack
+### Projects
 
-**Languages** — TypeScript (everything), PHP
+| | |
+|---|---|
+| [git-env / ev](https://git-env.com) | End-to-end encrypted environment variable sync CLI. 2,000+ organic npm installs in the first week. |
+| [documnt](https://documnt.app) | Document management with client-side E2E encryption. Next.js, Supabase, BullMQ. |
+| [Ten54](https://ten54.app) | Cross-platform mobile app. React Native + Expo + Supabase. |
 
-**Frontend** — React 19, Vue 3, React Native, TanStack Router, Vite, Tailwind
+---
 
-**Backend** — Hono, Node.js, Express, Fastify, Symfony
+### Stack
 
-**Data** — PostgreSQL, MySQL, MongoDB, Snowflake, Redis, RabbitMQ, BullMQ
+**Core** — TypeScript across all layers
 
-**Infra** — AWS (ECS, SQS, AmazonMQ, S3, CloudWatch, WAF), Terraform, Docker, GitHub Actions
+**Frontend** — React 19, Vue 3, React Native, Angular, TanStack Router, Vite, Tailwind
 
-**ORM/DB tooling** — Drizzle, Prisma, Doctrine
+**Backend** — Node.js, Hono, Fastify, Express, Symfony/PHP
+
+**Data** — PostgreSQL, MySQL, MongoDB, Snowflake, Redis, RabbitMQ, BullMQ, SQS
+
+**Infra** — AWS (ECS, AmazonMQ, S3, CloudWatch, WAF), Terraform, Docker, GitHub Actions
 
 **Payments** — Stripe, Square, Checkout.com
 
-**AI** — OpenAI API, Claude API, RAG pipelines
+**AI** — Claude API, OpenAI API, RAG pipelines, LLM integration
 
 ---
 
-## By the numbers
-
-- 2.2M+ events/month across 3 ECS clusters
-- 84,000+ active loyalty members
-- p95 latency cut from 1s+ → ~550ms
-- 8 customer-facing apps + 100+ component shared library
-- Co-led SOC 2 Type II certification
-- Mentored 9 engineers
-
----
-
-📍 Houston, TX &nbsp;·&nbsp; 📬 [mail.browland@gmail.com](mailto:mail.browland@gmail.com)
+[mail.browland@gmail.com](mailto:mail.browland@gmail.com)
