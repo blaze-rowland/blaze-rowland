@@ -2,7 +2,7 @@
 
 Principal Engineer with 9 years of experience in distributed systems, event-driven architecture, and full-stack TypeScript. Based in Houston, TX.
 
-At **[Fishbowl](https://fishbowl.com)**, I'm one of three founding engineers behind a ground-up platform rebuild — a restaurant engagement SaaS now serving 430+ enterprise clients across 5,500+ locations (Landry's, Raising Cane's, Lettuce Entertain You). The platform processes 2.2M+ events/month across dedicated ECS clusters, supports 84,000+ active loyalty members, and delivers 8 customer-facing applications backed by a 100+ component shared library. I co-led SOC 2 Type II certification and reduced p95 API latency from 1s+ to ~550ms.
+At **[Fishbowl](https://fishbowl.com)**, I lead platform architecture for a restaurant engagement SaaS serving 430+ enterprise clients across 5,500+ locations (Landry's, Raising Cane's, Lettuce Entertain You). The platform processes 2.2M+ events/month across dedicated ECS clusters, supports 84,000+ active loyalty members, and delivers 8 customer-facing applications backed by a 100+ component shared library. I co-led SOC 2 Type II certification and reduced p95 API latency from 1s+ to ~550ms.
 
 ---
 
