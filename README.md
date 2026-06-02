@@ -1,14 +1,14 @@
 ## Blaze Rowland
 
-Principal Engineer focused on distributed systems and event-driven architecture. Full-stack TypeScript — started on the frontend, grew into building systems at scale. Houston, TX.
+Full-stack TypeScript engineer focused on distributed systems and event-driven architecture. Houston, TX.
 
-Principal Engineer at **[Fishbowl](https://fishbowl.com)**. Previously at MHVillage and Triskelle Software Solutions.
+At **[Fishbowl](https://fishbowl.com)**, I lead platform architecture for a restaurant engagement SaaS — designing the systems, API contracts, and infrastructure patterns the rest of the team builds on. Day-to-day that means distributed event processing, multi-tenant data modeling, performance optimization, and keeping a platform serving 5,500+ locations running reliably. Previously at MHVillage and Triskelle Software Solutions.
 
 ---
 
 ### Projects
 
-| | |
+| Project | |
 |---|---|
 | [git-env / ev](https://git-env.com) | End-to-end encrypted environment variable sync CLI. 2,000+ organic npm installs in the first week. |
 | [documnt](https://documnt.app) | Document management with client-side E2E encryption. Next.js, Supabase, BullMQ. |
