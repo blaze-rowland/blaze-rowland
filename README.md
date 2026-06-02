@@ -1,8 +1,8 @@
 ## Blaze Rowland
 
-Principal Engineer with 9 years of experience in distributed systems, event-driven architecture, and full-stack TypeScript. Based in Houston, TX.
+Principal Engineer focused on distributed systems and event-driven architecture. TypeScript across all layers — heavier on backend. Houston, TX.
 
-At **[Fishbowl](https://fishbowl.com)**, I lead platform architecture for a restaurant engagement SaaS serving 430+ enterprise clients across 5,500+ locations (Landry's, Raising Cane's, Lettuce Entertain You). The platform processes 2.2M+ events/month across dedicated ECS clusters, supports 84,000+ active loyalty members, and delivers 8 customer-facing applications backed by a 100+ component shared library. I co-led SOC 2 Type II certification and reduced p95 API latency from 1s+ to ~550ms.
+Principal Engineer at **[Fishbowl](https://fishbowl.com)**. Previously at MHVillage and Triskelle Software Solutions.
 
 ---
 
@@ -30,7 +30,7 @@ At **[Fishbowl](https://fishbowl.com)**, I lead platform architecture for a rest
 
 **Payments** — Stripe, Square, Checkout.com
 
-**AI** — Claude API, OpenAI API, RAG pipelines, LLM integration
+**AI** — Claude API, OpenAI API, MCP servers, RAG pipelines, LLM integration
 
 ---
 
