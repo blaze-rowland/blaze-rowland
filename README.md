@@ -1,6 +1,6 @@
 ## Blaze Rowland
 
-Principal Engineer focused on distributed systems and event-driven architecture. TypeScript across all layers — heavier on backend. Houston, TX.
+Principal Engineer focused on distributed systems and event-driven architecture. Full-stack TypeScript — started on the frontend, grew into building systems at scale. Houston, TX.
 
 Principal Engineer at **[Fishbowl](https://fishbowl.com)**. Previously at MHVillage and Triskelle Software Solutions.
 
