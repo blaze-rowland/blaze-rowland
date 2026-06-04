@@ -1,5 +1,5 @@
-<svg width="1180" height="330" viewBox="0 0 1180 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech stack: TypeScript core; React, Vue, React Native frontend; Node.js backend; PostgreSQL, Redis, RabbitMQ data layer; AWS and Terraform infrastructure; Stripe, Square payments; Claude and OpenAI APIs">
-  <rect x="1" y="1" width="1178" height="328" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+<svg width="1180" height="410" viewBox="0 0 1180 410" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech stack: TypeScript core; React, Vue, Next.js, Astro frontend; React Native and Expo mobile; Node.js and Symfony backend; PostgreSQL, Snowflake, Redis, RabbitMQ data layer; AWS, Terraform, Docker infrastructure; Sentry, Prometheus, Grafana observability; Stripe, Square, RevenueCat payments; Claude, OpenAI, MCP, Ollama AI">
+  <rect x="1" y="1" width="1178" height="408" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
   <text x="28" y="58" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">CORE</text>
   <rect x="150" y="40" width="216" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
   <text x="258" y="56" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">TypeScript — every layer</text>
@@ -8,63 +8,107 @@
   <text x="194" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">React 19</text>
   <rect x="249" y="80" width="66" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
   <text x="282" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Vue 3</text>
-  <rect x="325" y="80" width="121" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="385" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">React Native</text>
-  <rect x="456" y="80" width="89" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="500" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">TanStack</text>
-  <rect x="555" y="80" width="58" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="584" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Vite</text>
-  <rect x="623" y="80" width="89" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="667" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Tailwind</text>
-  <text x="28" y="138" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">BACKEND</text>
-  <rect x="150" y="120" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="190" y="136" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Node.js</text>
-  <rect x="241" y="120" width="58" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="270" y="136" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Hono</text>
-  <rect x="309" y="120" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="349" y="136" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Fastify</text>
-  <rect x="400" y="120" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="440" y="136" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Express</text>
-  <rect x="491" y="120" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="531" y="136" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Symfony</text>
-  <text x="28" y="178" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">DATA</text>
-  <rect x="150" y="160" width="105" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="202" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">PostgreSQL</text>
-  <rect x="265" y="160" width="66" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="298" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">MySQL</text>
-  <rect x="341" y="160" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="381" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">MongoDB</text>
-  <rect x="432" y="160" width="97" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="480" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Snowflake</text>
-  <rect x="539" y="160" width="66" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="572" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Redis</text>
-  <rect x="615" y="160" width="89" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="659" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">RabbitMQ</text>
-  <rect x="714" y="160" width="50" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="739" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">SQS</text>
-  <text x="28" y="218" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">INFRA</text>
-  <rect x="150" y="200" width="50" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="175" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">AWS</text>
-  <rect x="210" y="200" width="97" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="258" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Terraform</text>
-  <rect x="317" y="200" width="73" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="353" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Docker</text>
-  <rect x="400" y="200" width="105" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="452" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">GH Actions</text>
-  <text x="28" y="258" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">PAYMENTS</text>
-  <rect x="150" y="240" width="73" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="186" y="256" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Stripe</text>
-  <rect x="233" y="240" width="73" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="269" y="256" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Square</text>
-  <rect x="316" y="240" width="121" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="376" y="256" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Checkout.com</text>
-  <text x="28" y="298" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">AI</text>
-  <rect x="150" y="280" width="105" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="202" y="296" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Claude API</text>
-  <rect x="265" y="280" width="105" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="317" y="296" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">OpenAI API</text>
-  <rect x="380" y="280" width="113" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="436" y="296" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">MCP servers</text>
-  <rect x="503" y="280" width="50" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-  <text x="528" y="296" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">RAG</text>
+  <rect x="325" y="80" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="365" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Next.js</text>
+  <rect x="416" y="80" width="66" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="449" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Astro</text>
+  <rect x="492" y="80" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="532" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Angular</text>
+  <rect x="583" y="80" width="89" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="627" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">TanStack</text>
+  <rect x="682" y="80" width="58" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="711" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Vite</text>
+  <rect x="750" y="80" width="89" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="794" y="96" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Tailwind</text>
+  <text x="28" y="138" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">MOBILE</text>
+  <rect x="150" y="120" width="121" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="210" y="136" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">React Native</text>
+  <rect x="281" y="120" width="58" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="310" y="136" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Expo</text>
+  <rect x="349" y="120" width="113" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="405" y="136" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Expo Router</text>
+  <rect x="472" y="120" width="97" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="520" y="136" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">EAS Build</text>
+  <text x="28" y="178" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">BACKEND</text>
+  <rect x="150" y="160" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="190" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Node.js</text>
+  <rect x="241" y="160" width="50" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="266" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Bun</text>
+  <rect x="301" y="160" width="58" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="330" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Hono</text>
+  <rect x="369" y="160" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="409" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Fastify</text>
+  <rect x="460" y="160" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="500" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Express</text>
+  <rect x="551" y="160" width="113" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="607" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Symfony/PHP</text>
+  <rect x="674" y="160" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="714" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Drizzle</text>
+  <rect x="765" y="160" width="73" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="801" y="176" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Prisma</text>
+  <text x="28" y="218" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">DATA</text>
+  <rect x="150" y="200" width="105" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="202" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">PostgreSQL</text>
+  <rect x="265" y="200" width="66" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="298" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">MySQL</text>
+  <rect x="341" y="200" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="381" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">MongoDB</text>
+  <rect x="432" y="200" width="73" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="468" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">SQLite</text>
+  <rect x="515" y="200" width="97" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="563" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Snowflake</text>
+  <rect x="622" y="200" width="89" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="666" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Supabase</text>
+  <rect x="721" y="200" width="66" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="754" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Redis</text>
+  <rect x="797" y="200" width="89" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="841" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">RabbitMQ</text>
+  <rect x="896" y="200" width="73" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="932" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">BullMQ</text>
+  <rect x="979" y="200" width="50" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="1004" y="216" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">SQS</text>
+  <text x="28" y="258" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">INFRA</text>
+  <rect x="150" y="240" width="50" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="175" y="256" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">AWS</text>
+  <rect x="210" y="240" width="97" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="258" y="256" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Terraform</text>
+  <rect x="317" y="240" width="73" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="353" y="256" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Docker</text>
+  <rect x="400" y="240" width="66" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="433" y="256" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Caddy</text>
+  <rect x="476" y="240" width="137" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="544" y="256" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">GitHub Actions</text>
+  <text x="28" y="298" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">OBSERVABILITY</text>
+  <rect x="150" y="280" width="73" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="186" y="296" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Sentry</text>
+  <rect x="233" y="280" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="273" y="296" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Rollbar</text>
+  <rect x="324" y="280" width="105" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="376" y="296" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Prometheus</text>
+  <rect x="439" y="280" width="81" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="479" y="296" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Grafana</text>
+  <rect x="530" y="280" width="58" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="559" y="296" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Loki</text>
+  <rect x="598" y="280" width="58" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="627" y="296" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Pino</text>
+  <text x="28" y="338" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">PAYMENTS</text>
+  <rect x="150" y="320" width="73" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="186" y="336" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Stripe</text>
+  <rect x="233" y="320" width="73" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="269" y="336" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Square</text>
+  <rect x="316" y="320" width="105" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="368" y="336" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">RevenueCat</text>
+  <rect x="431" y="320" width="121" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="491" y="336" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Checkout.com</text>
+  <text x="28" y="378" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7c3aed" text-transform="uppercase">AI</text>
+  <rect x="150" y="360" width="105" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="202" y="376" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Claude API</text>
+  <rect x="265" y="360" width="105" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="317" y="376" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">OpenAI API</text>
+  <rect x="380" y="360" width="113" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="436" y="376" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">MCP servers</text>
+  <rect x="503" y="360" width="73" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="539" y="376" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">Ollama</text>
+  <rect x="586" y="360" width="50" height="26" rx="13" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="611" y="376" font-family="'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#0969da" text-anchor="middle">RAG</text>
 </svg>
