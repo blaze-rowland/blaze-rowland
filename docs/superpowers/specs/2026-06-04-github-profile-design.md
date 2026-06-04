@@ -51,6 +51,23 @@ Explicitly excluded: top-languages card (public repos only — would misrepresen
 - SVG animation plays on github.com itself (GitHub proxies images through Camo — verify animation survives, not just in local preview).
 - Stat cards load and show plausible numbers with private counts included.
 
+## Revision 1 (2026-06-04, post-ship feedback)
+
+First shipped version: user verdict — only the hero looked good; stock markdown below it (table with empty header strip, bold-text stack lines, lone streak card) read as generic. Field findings: github-readme-stats.vercel.app is `DEPLOYMENT_PAUSED` (dead indefinitely); streak-stats works but cold-cache requests 504 through Camo before self-healing; streak numbers (current 1 / longest 12) actively unflattering.
+
+**Approved redesign — extend the hero's design language to the whole page:**
+
+- **Hero:** unchanged.
+- **Projects:** three hand-crafted SVG cards in the hero palette (dark + light variants each), replacing the table. Each card: project name (accent-colored suffix where applicable), "↗" affordance top-right, 1–2 line hook (git-env's npm stat highlighted green), monospace tech line. Each card is wrapped in a link — the whole image is clickable. No hover states (GitHub renders SVGs as static images).
+- **Stack:** one hand-crafted SVG panel (dark + light variants): seven layer rows, uppercase accent label column, technologies as pill chips (rounded rects, mono text), replacing the seven bold-text lines.
+- **Activity section: removed entirely.** Both hosted cards dropped. GitHub's native contribution graph below the README covers activity (private contributions visible once the user flips the profile setting).
+- **No section headings** — cards and panel flow directly, as in the approved mockup.
+- **Footer:** email link, unchanged.
+
+Palette (from hero): dark — bg #161b22→#1a1040 gradient, border #30363d, text #c9d1d9/#8b949e, accent #a78bfa, links/icons #58a6ff/#79c0ff, success #7ee787, muted #484f58. Light — bg #ffffff→#f5f3ff, border #d0d7de, text #1f2328/#57606a, accent #7c3aed, links #0969da, success #1a7f37, muted #6e7781.
+
+All SVGs: system font stack, no external resources, `role="img"` + `aria-label`, reduced-motion-safe (these are static — no animation needed beyond the hero).
+
 ## Out of scope
 
 - Self-hosted/bespoke stats rendering (Approach 3 — rejected, see Constraints).

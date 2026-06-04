@@ -254,6 +254,53 @@ git push origin main
 
 ---
 
+## Revision 1 Tasks (approved redesign — see spec Revision 1)
+
+### Task 5: Project card SVGs (6 files)
+
+**Files:**
+- Create: `assets/card-git-env-dark.svg`, `assets/card-git-env-light.svg`, `assets/card-documnt-dark.svg`, `assets/card-documnt-light.svg`, `assets/card-ten54-dark.svg`, `assets/card-ten54-light.svg`
+
+- [ ] Each card: viewBox `0 0 380 200`, rect rx="10" with 1px border, vertical gradient background, content per spec Revision 1 (title 24px/800, hook 14px/1.5 line-height wrapped with tspans, mono tech line 12px at bottom, "↗" 16px top-right at x=352 y=36). Dark/light palettes per spec. Validate each with xmllint. Commit: "Add project card SVGs".
+
+Card content:
+- git-env: title "git-env" + accent " / ev"; hook line 1 "E2E-encrypted env var sync CLI."; hook line 2 (success color) "2,000+ npm installs in week one."; tech "TypeScript · CLI · crypto"
+- documnt: title "documnt"; hook "Document management with client-side E2E encryption."; tech "Next.js · Supabase · BullMQ"
+- Ten54: title "Ten54"; hook "Cross-platform mobile app, App Store + Play."; tech "React Native · Expo · Supabase"
+
+### Task 6: Stack panel SVGs (2 files)
+
+**Files:**
+- Create: `assets/stack-dark.svg`, `assets/stack-light.svg`
+
+- [ ] viewBox `0 0 1180 330`, rect rx="10" bordered panel. Seven rows (y starting 48, step 40): uppercase label (12px, 700 weight, letter-spacing 1.5, accent color, x=28) + pill chips (rounded rects rx=12 height=26, mono 13px text centered, pill width = ceil(text_chars × 7.8) + 26, gap 8px, chips start x=140). Rows/chips:
+  - CORE: "TypeScript — every layer"
+  - FRONTEND: React 19, Vue 3, React Native, TanStack, Vite, Tailwind
+  - BACKEND: Node.js, Hono, Fastify, Express, Symfony
+  - DATA: PostgreSQL, MySQL, MongoDB, Snowflake, Redis, RabbitMQ, SQS
+  - INFRA: AWS, Terraform, Docker, GH Actions
+  - PAYMENTS: Stripe, Square, Checkout.com
+  - AI: Claude API, OpenAI API, MCP servers, RAG
+- [ ] Validate with xmllint; visually check chips don't overflow the 1180 width. Commit: "Add stack panel SVGs".
+
+### Task 7: Restructure README for full-SVG layout
+
+**Files:**
+- Modify: `README.md`
+
+- [ ] Keep: hero `<picture>` block and bio paragraph. Replace everything from `### Projects` through the end with:
+  - Three project cards on one line, each `<a href="..."><picture>(dark/light sources)<img width="32%" alt="..."></picture></a>` with hrefs git-env.com / documnt.app / ten54.app
+  - Stack panel `<picture>` with `<img width="100%">`
+  - `---` rule + mailto link (unchanged)
+  - No `### Projects` / `### Stack` / `### Activity` headings; Activity and both hosted stat cards removed entirely
+- [ ] Commit: "Extend hero design language to full README; drop Activity"
+
+### Task 8: Local visual check, push, live verify
+
+- [ ] Screenshot rendered cards locally before pushing; fix any text overflow/clipping
+- [ ] Push (user already authorized shipping this design)
+- [ ] Verify live: dark + light, card click-through, mobile width
+
 ## Self-Review (completed)
 
 - **Spec coverage:** hero (Task 1–2), `<picture>` dark/light (Task 3), content edits (Task 3), two stat cards with `count_private` (Task 3), one-time profile setting (Task 4 Step 2), verification incl. Camo/animation, both themes, mobile (Task 4 Steps 3–5). Out-of-scope items remain untouched. ✓
