@@ -1,0 +1,32 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Blaze Rowland — distributed systems, event-driven architecture, TypeScript">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6f8fa">
+        <animate attributeName="stop-color" values="#f6f8fa;#ede9fe;#e0f2fe;#f6f8fa" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#ede9fe">
+        <animate attributeName="stop-color" values="#ede9fe;#e0f2fe;#f6f8fa;#ede9fe" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#e0f2fe">
+        <animate attributeName="stop-color" values="#e0f2fe;#f6f8fa;#ede9fe;#e0f2fe" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <style>
+      .name { font: 800 64px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #1f2328; letter-spacing: -1px; }
+      .tag  { font: 500 24px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #7c3aed; }
+      .fade-up { opacity: 0; animation: fadeUp 1.2s ease 0.5s forwards; }
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(10px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .fade-up { opacity: 1; animation: none; }
+      }
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="12" fill="url(#bg)"/>
+  <text x="80" y="155" class="name">Blaze Rowland</text>
+  <g class="fade-up">
+    <text x="80" y="205" class="tag">distributed systems · event-driven architecture · TypeScript</text>
+  </g>
+</svg>
