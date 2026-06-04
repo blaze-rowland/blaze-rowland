@@ -301,6 +301,23 @@ Card content:
 - [ ] Push (user already authorized shipping this design)
 - [ ] Verify live: dark + light, card click-through, mobile width
 
+### Task 9: Expand stack panel to 9 rows (user-approved, evidence from ~/Sites scan)
+
+**Files:** Modify `assets/stack-dark.svg`, `assets/stack-light.svg` (full regeneration, same palettes/geometry rules)
+
+- [ ] viewBox `0 0 1180 410`, panel rect height 408. Nine rows, baseline y = 58 + N×40 (58…378). Same pill formula (round(chars×7.9)+26, gap 10, chips x=150):
+  - CORE: TypeScript — every layer
+  - FRONTEND: React 19, Vue 3, Next.js, Astro, Angular, TanStack, Vite, Tailwind
+  - MOBILE: React Native, Expo, Expo Router, EAS Build
+  - BACKEND: Node.js, Bun, Hono, Fastify, Express, Symfony/PHP, Drizzle, Prisma
+  - DATA: PostgreSQL, MySQL, MongoDB, SQLite, Snowflake, Supabase, Redis, RabbitMQ, BullMQ, SQS
+  - INFRA: AWS, Terraform, Docker, Caddy, GitHub Actions
+  - OBSERVABILITY: Sentry, Rollbar, Prometheus, Grafana, Loki, Pino
+  - PAYMENTS: Stripe, Square, RevenueCat, Checkout.com
+  - AI: Claude API, OpenAI API, MCP servers, Ollama, RAG
+- [ ] Widest row (DATA, 10 pills) right edge ≈1029 < 1160 ✓ (pre-computed). Update aria-label to mention the new rows. README needs no change (same filenames).
+- [ ] Commit "Expand stack panel: mobile, observability, fuller rows", visual check, push.
+
 ## Self-Review (completed)
 
 - **Spec coverage:** hero (Task 1–2), `<picture>` dark/light (Task 3), content edits (Task 3), two stat cards with `count_private` (Task 3), one-time profile setting (Task 4 Step 2), verification incl. Camo/animation, both themes, mobile (Task 4 Steps 3–5). Out-of-scope items remain untouched. ✓
