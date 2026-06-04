@@ -16,12 +16,12 @@ Full-stack TypeScript engineer in Houston, TX. I lead platform architecture at *
 
 ### Stack
 
-**Core** — TypeScript across all layers
-**Frontend** — React 19, Vue 3, React Native, TanStack Router, Vite, Tailwind
-**Backend** — Node.js, Hono, Fastify, Express, Symfony/PHP
-**Data** — PostgreSQL, MySQL, MongoDB, Snowflake, Redis, RabbitMQ, BullMQ, SQS
-**Infra** — AWS (ECS, AmazonMQ, S3, CloudWatch, WAF), Terraform, Docker, GitHub Actions
-**Payments** — Stripe, Square, Checkout.com
+**Core** — TypeScript across all layers<br>
+**Frontend** — React 19, Vue 3, React Native, TanStack Router, Vite, Tailwind<br>
+**Backend** — Node.js, Hono, Fastify, Express, Symfony/PHP<br>
+**Data** — PostgreSQL, MySQL, MongoDB, Snowflake, Redis, RabbitMQ, BullMQ, SQS<br>
+**Infra** — AWS (ECS, AmazonMQ, S3, CloudWatch, WAF), Terraform, Docker, GitHub Actions<br>
+**Payments** — Stripe, Square, Checkout.com<br>
 **AI** — Claude API, OpenAI API, MCP servers, RAG pipelines
 
 ### Activity
