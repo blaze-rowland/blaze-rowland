@@ -6,34 +6,24 @@
 
 Full-stack TypeScript engineer in Houston, TX. I lead platform architecture at **[Fishbowl](https://fishbowl.com)** — designing the systems, API contracts, and infrastructure patterns behind a restaurant engagement platform serving 5,500+ locations. Previously at MHVillage and Triskelle Software Solutions.
 
-### Projects
-
-| | |
-|---|---|
-| **[git-env / ev](https://git-env.com)** | End-to-end encrypted environment variable sync CLI — 2,000+ organic npm installs in the first week |
-| **[documnt](https://documnt.app)** | Document management with client-side E2E encryption — Next.js, Supabase, BullMQ |
-| **[Ten54](https://ten54.app)** | Cross-platform mobile app — React Native, Expo, Supabase |
-
-### Stack
-
-**Core** — TypeScript across all layers<br>
-**Frontend** — React 19, Vue 3, React Native, TanStack Router, Vite, Tailwind<br>
-**Backend** — Node.js, Hono, Fastify, Express, Symfony/PHP<br>
-**Data** — PostgreSQL, MySQL, MongoDB, Snowflake, Redis, RabbitMQ, BullMQ, SQS<br>
-**Infra** — AWS (ECS, AmazonMQ, S3, CloudWatch, WAF), Terraform, Docker, GitHub Actions<br>
-**Payments** — Stripe, Square, Checkout.com<br>
-**AI** — Claude API, OpenAI API, MCP servers, RAG pipelines
-
-### Activity
+<a href="https://git-env.com"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-git-env-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-git-env-light.svg">
+  <img alt="git-env / ev — E2E-encrypted environment variable sync CLI. 2,000+ npm installs in week one." src="assets/card-git-env-dark.svg" width="32%">
+</picture></a><a href="https://documnt.app"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-documnt-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-documnt-light.svg">
+  <img alt="documnt — document management with client-side E2E encryption." src="assets/card-documnt-dark.svg" width="32%">
+</picture></a><a href="https://ten54.app"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-ten54-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-ten54-light.svg">
+  <img alt="Ten54 — cross-platform mobile app on App Store and Google Play." src="assets/card-ten54-dark.svg" width="32%">
+</picture></a>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=blaze-rowland&count_private=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=a78bfa&text_color=c9d1d9&icon_color=58a6ff&hide_rank=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=blaze-rowland&count_private=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=7c3aed&text_color=1f2328&icon_color=0969da&hide_rank=true">
-  <img alt="GitHub commit and contribution stats" height="170" src="https://github-readme-stats.vercel.app/api?username=blaze-rowland&count_private=true&show_icons=true&hide_border=true&bg_color=00000000&title_color=a78bfa&text_color=c9d1d9&icon_color=58a6ff&hide_rank=true">
-</picture><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=blaze-rowland&hide_border=true&background=00000000&ring=a78bfa&fire=58a6ff&currStreakLabel=a78bfa&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e&stroke=30363d">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=blaze-rowland&hide_border=true&background=00000000&ring=7c3aed&fire=0969da&currStreakLabel=7c3aed&currStreakNum=1f2328&sideNums=1f2328&sideLabels=57606a&dates=57606a&stroke=d0d7de">
-  <img alt="GitHub contribution streak" height="170" src="https://streak-stats.demolab.com?user=blaze-rowland&hide_border=true&background=00000000&ring=a78bfa&fire=58a6ff&currStreakLabel=a78bfa&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e&stroke=30363d">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+  <img alt="Tech stack: TypeScript core; React, Vue, React Native frontend; Node.js backend; PostgreSQL, Redis, RabbitMQ data layer; AWS and Terraform infrastructure; Stripe, Square payments; Claude and OpenAI APIs" src="assets/stack-dark.svg" width="100%">
 </picture>
 
 ---
